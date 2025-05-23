@@ -1,47 +1,47 @@
 // Данные товаров
 const products = {
     men: [
-        { id: 1, title: "Футболка Miami Bape", price: 1299, image: "images/men/Футболка MIami Bape.jpg", category: "shirts" },
-        { id: 2, title: "Зипка Ralph Lauren", price: 3499, image: "images/men/Зипка Ralph Lauren.jpg", category: "outerwear" },
-        { id: 3, title: "Рубашка Lyle Scott", price: 3199, image: "images/men/Рубашка Lyle Scott.jpg", category: "shirts" },
-        { id: 4, title: "Куртка C.P Company", price: 5999, image: "images/men/Куртка C.P Company.jpg", category: "outerwear" },
-        { id: 5, title: "Футболка True Religion", price: 1799, image: "images/men/Футболка True Religion.jpg", category: "shirts" },
-        { id: 6, title: "Джинсы Big Boy", price: 2999, image: "images/men/Джинсы Big Boy.jpg", category: "pants" },
-        { id: 7, title: "Лонгслив Fight Club", price: 3299, image: "images/men/Лонгслив Fight Club.jpg", category: "shirts" },
-        { id: 8, title: "Пальто Stone Island", price: 7999, image: "images/men/Пальто Stone Island.jpg", category: "outerwear" },
-        { id: 9, title: "Шорты Dime", price: 1999, image: "images/men/Шорты Dime.jpg", category: "pants" },
-        { id: 10, title: "Худи Maison Marjelo", price: 4999, image: "images/men/Худи Maison Marjelo.jpg", category: "outerwear" },
-        { id: 11, title: "Пиджак Stone Island", price: 4999, image: "images/men/Пиджак Stone Island.jpg", category: "outerwear" },
-        { id: 12, title: "Джинсы скинни Amiri", price: 3799, image: "images/men/Джинсы скинни Amiri.jpg", category: "pants" }
+        { id: 1, title: "Футболка Miami Bape", price: 1299, image: "images/Футболка MIami Bape.jpg", category: "shirts" },
+        { id: 2, title: "Зипка Ralph Lauren", price: 3499, image: "images/Зипка Ralph Lauren.jpg", category: "outerwear" },
+        { id: 3, title: "Рубашка Lyle Scott", price: 3199, image: "images/Рубашка Lyle Scott.jpg", category: "shirts" },
+        { id: 4, title: "Куртка C.P Company", price: 5999, image: "images/Куртка C.P Company.jpg", category: "outerwear" },
+        { id: 5, title: "Футболка True Religion", price: 1799, image: "images/Футболка True Religion.jpg", category: "shirts" },
+        { id: 6, title: "Джинсы Big Boy", price: 2999, image: "images/Джинсы Big Boy.jpg", category: "pants" },
+        { id: 7, title: "Лонгслив Fight Club", price: 3299, image: "images/Лонгслив Fight Club.jpg", category: "shirts" },
+        { id: 8, title: "Пальто Stone Island", price: 7999, image: "images/Пальто Stone Island.jpg", category: "outerwear" },
+        { id: 9, title: "Шорты Dime", price: 1999, image: "images/Шорты Dime.jpg", category: "pants" },
+        { id: 10, title: "Худи Maison Marjelo", price: 4999, image: "images/Худи Maison Marjelo.jpg", category: "outerwear" },
+        { id: 11, title: "Пиджак Stone Island", price: 4999, image: "images/Пиджак Stone Island.jpg", category: "outerwear" },
+        { id: 12, title: "Джинсы скинни Amiri", price: 3799, image: "images/Джинсы скинни Amiri.jpg", category: "pants" }
        
     ],
     women: [
-        { id: 13, title: "Платье Bonprix", price: 2499, image: "images/women/Платье Bonprix.jpg", category: "dresses" },
-        { id: 14, title: "Блузка Oodji", price: 1799, image: "images/women/Блузка Oodji.jpg", category: "tops" },
-        { id: 15, title: "Юбка Tadaski", price: 2199, image: "images/women/Юбка Tadaski.jpg", category: "pants" },
-        { id: 16, title: "Пальто Barberry", price: 6999, image: "images/women/Пальто Barberry.jpg", category: "outerwear" },
-        { id: 17, title: "Топ Nike", price: 1299, image: "images/women/Топ Nike.jpg", category: "tops" },
-        { id: 18, title: "Свитшот Kappa", price: 3299, image: "images/women/Свитшот Kappa.jpg", category: "outerwear" },
-        { id: 19, title: "Кардиган Trussardi", price: 2799, image: "images/women/Кардиган Trussardi.jpg", category: "outerwear" },
-        { id: 20, title: "Сарафан  Alexandr", price: 1999, image: "images/women/Сарафан  Alexandr.jpg", category: "dresses" },
-        { id: 21, title: "Брюки Premier", price: 2599, image: "images/women/Брюки Premier.jpeg", category: "pants" },
-        { id: 22, title: "Куртка MiuMiu", price: 5499, image: "images/women/Куртка MiuMiu.jpg", category: "outerwear" },
-        { id: 23, title: "Платье вечернее Prabal", price: 4999, image: "images/women/Платье вечернее Prabal.jpg", category: "dresses" },
-        { id: 24, title: "Жакет Oodji", price: 3799, image: "images/women/Жакет Oodji.jpg", category: "outerwear" }
+        { id: 13, title: "Платье Bonprix", price: 2499, image: "images/Платье Bonprix.jpg", category: "dresses" },
+        { id: 14, title: "Блузка Oodji", price: 1799, image: "images/Блузка Oodji.jpg", category: "tops" },
+        { id: 15, title: "Юбка Tadaski", price: 2199, image: "images/Юбка Tadaski.jpg", category: "pants" },
+        { id: 16, title: "Пальто Barberry", price: 6999, image: "images/Пальто Barberry.jpg", category: "outerwear" },
+        { id: 17, title: "Топ Nike", price: 1299, image: "images/Топ Nike.jpg", category: "tops" },
+        { id: 18, title: "Свитшот Kappa", price: 3299, image: "images/Свитшот Kappa.jpg", category: "outerwear" },
+        { id: 19, title: "Кардиган Trussardi", price: 2799, image: "images/Кардиган Trussardi.jpg", category: "outerwear" },
+        { id: 20, title: "Сарафан  Alexandr", price: 1999, image: "images/Сарафан  Alexandr.jpg", category: "dresses" },
+        { id: 21, title: "Брюки Premier", price: 2599, image: "images/Брюки Premier.jpeg", category: "pants" },
+        { id: 22, title: "Куртка MiuMiu", price: 5499, image: "images/Куртка MiuMiu.jpg", category: "outerwear" },
+        { id: 23, title: "Платье вечернее Prabal", price: 4999, image: "images/Платье вечернее Prabal.jpg", category: "dresses" },
+        { id: 24, title: "Жакет Oodji", price: 3799, image: "images/Жакет Oodji.jpg", category: "outerwear" }
     ],
     accessories: [
-        { id: 25, title: "Ремень LV", price: 1999, image: "images/accessories/Ремень LV.jpg", category: "belts" },
-        { id: 26, title: "Сумка AMIRI", price: 3499, image: "images/accessories/Сумка AMIRI.jpg", category: "bags" },
-        { id: 27, title: "Шарф ФК Спартак", price: 1699, image: "images/accessories/Шарф ФК Спартак.jpg", category: "hats" },
-        { id: 28, title: "Кепка Burberry", price: 1599, image: "images/accessories/Кепка Burberry.jpg", category: "hats" },
-        { id: 29, title: "Серьги GRAFF", price: 3599, image: "images/accessories/Серьги GRAFF.jpg", category: "jewelry" },
-        { id: 30, title: "Рюкзак LV Trio", price: 4999, image: "images/accessories/Рюкзак LV Trio.jpg", category: "bags" },
-        { id: 31, title: "Кольцо Cartier", price: 2299, image: "images/accessories/Кольцо Cartier.jpg", category: "jewelry" },
-        { id: 32, title: "Панама Patagonia", price: 1499, image: "images/accessories/Панама Patagonia.jpg", category: "hats" },
-        { id: 33, title: "Портмоне LV", price: 1799, image: "images/accessories/Портмоне LV.jpg", category: "bags" },
-        { id: 34, title: "Браслет Chrome Hearts", price: 1999, image: "images/accessories/Браслет Chrome Hearts.jpg", category: "jewelry" },
-        { id: 35, title: "Часы Casio", price: 3299, image: "images/accessories/Часы Casio.jpg", category: "jewelry" },
-        { id: 36, title: "Очки Ray Ban", price: 2499, image: "images/accessories/Очки Ray Ban.jpg", category: "hats" }
+        { id: 25, title: "Ремень LV", price: 1999, image: "images/Ремень LV.jpg", category: "belts" },
+        { id: 26, title: "Сумка AMIRI", price: 3499, image: "images/Сумка AMIRI.jpg", category: "bags" },
+        { id: 27, title: "Шарф ФК Спартак", price: 1699, image: "images/Шарф ФК Спартак.jpg", category: "hats" },
+        { id: 28, title: "Кепка Burberry", price: 1599, image: "images/Кепка Burberry.jpg", category: "hats" },
+        { id: 29, title: "Серьги GRAFF", price: 3599, image: "images/Серьги GRAFF.jpg", category: "jewelry" },
+        { id: 30, title: "Рюкзак LV Trio", price: 4999, image: "images/Рюкзак LV Trio.jpg", category: "bags" },
+        { id: 31, title: "Кольцо Cartier", price: 2299, image: "images/Кольцо Cartier.jpg", category: "jewelry" },
+        { id: 32, title: "Панама Patagonia", price: 1499, image: "images/Панама Patagonia.jpg", category: "hats" },
+        { id: 33, title: "Портмоне LV", price: 1799, image: "images/Портмоне LV.jpg", category: "bags" },
+        { id: 34, title: "Браслет Chrome Hearts", price: 1999, image: "images/Браслет Chrome Hearts.jpg", category: "jewelry" },
+        { id: 35, title: "Часы Casio", price: 3299, image: "images/Часы Casio.jpg", category: "jewelry" },
+        { id: 36, title: "Очки Ray Ban", price: 2499, image: "images/Очки Ray Ban.jpg", category: "hats" }
     ]
 };
 
